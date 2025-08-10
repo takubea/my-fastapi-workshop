@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>簡易掲示板</title>
+</head>
+
+<body>
+    <h1>簡易掲示板</h1>
+
+    <hr>
+    <h2>投稿一覧</h2>
+    {% for comment in comments %}
+    <div>
+        <p><strong>{{ comment.username }}</strong></p>
+        <p>{{ comment.text }}</p>
+    </div>
+    <hr>
+    {% else %}
+    <p>まだ投稿はありません。</p>
+    {% endfor %}
+</body>
+
+</html>
