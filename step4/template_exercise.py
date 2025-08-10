@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.templating import Jinja2Templates
 
 app = FastAPI()
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="step-4/templates")
 
 users_data = [
     {"id": 1, "username": "Suzuki", "email": "suzuki@example.com"},
