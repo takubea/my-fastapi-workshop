@@ -75,7 +75,7 @@ step-2/server_exercise.py ファイルを開いてください。
 
 ` --- ここにコードを書いてください --- `の部分に、ルート URL(/)への GET リクエストを処理するエンドポイントを追加してください。このエンドポイントは `{"Hello": "World"} `という JSON を返すようにします。
 
-ターミナルで `uvicorn step-2.server_exercise:app --reload` を実行し、ブラウザで `http://127.0.0.1:8000` にアクセスして` {"Hello": "World"} `が表示されることを確認してください。
+ターミナルで `uvicorn step2.server_exercise:app --reload` を実行し、ブラウザで `http://127.0.0.1:8000` にアクセスして` {"Hello": "World"} `が表示されることを確認してください。
 
 ### Step 3: API からデータを返す
 
