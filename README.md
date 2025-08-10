@@ -85,7 +85,7 @@ step-3`/api_exercise.py` ファイルを開いてください。
 
 ` --- ここにコードを書いてください --- `の部分に、`/api/users` という URL への GET リクエストを処理する新しいエンドポイントを追加してください。このエンドポイントは、users リストをそのまま返します。
 
-サーバーで `uvicorn step3.api_exercise:app --reload` を起動し、ブラウザで `http://127.0.0.1:8000/api/users` にアクセスして、ユーザーデータの JSON が表示されることを確認してください。
+ターミナルで `uvicorn step3.api_exercise:app --reload` を実行し、ブラウザで `http://127.0.0.1:8000/api/users` にアクセスして、ユーザーデータの JSON が表示されることを確認してください。
 
 ### Step 4: テンプレートを使ってページを表示する
 
